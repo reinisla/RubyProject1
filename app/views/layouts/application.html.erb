@@ -7,11 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>Static Page example</h1>
+	<div class="navbar navbar-default ">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a href="#" class="navbar-brand">Home</a>
+			</div>
+		</div>
+	</div>
 
-<div id="main">
-<%= yield %>
-</div>
+	<div class="container">
+		<%= yield %>
+	</div>
 
 </body>
 </html>
